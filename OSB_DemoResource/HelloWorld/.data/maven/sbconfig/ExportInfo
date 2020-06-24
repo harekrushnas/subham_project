@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml-fragment name="configjar1589352006239" version="v2" xmlns:imp="http://www.bea.com/wli/config/importexport">
+    <imp:properties>
+        <imp:property name="username" value="ServiceBus"/>
+        <imp:property name="description" value=""/>
+        <imp:property name="exporttime" value="Wed May 13 12:10:20 IST 2020"/>
+        <imp:property name="productname" value="Oracle Service Bus"/>
+        <imp:property name="productversion" value="12.2.1.3.0"/>
+        <imp:property name="projectLevelExport" value="true"/>
+    </imp:properties>
+    <imp:exportedItemInfo instanceId="HelloWorld/ProxyService/HelloWorld_PS" typeId="ProxyService">
+        <imp:properties>
+            <imp:property name="representationversion" value="0"/>
+            <imp:property name="dataclass" value="com.bea.wli.sb.services.impl.ProxyServiceEntryDocumentImpl"/>
+            <imp:property name="isencrypted" value="false"/>
+            <imp:property name="jarentryname" value="HelloWorld/ProxyService/HelloWorld_PS.ProxyService"/>
+            <imp:property name="extrefs" value="WSDL$HelloWorld$WSDL$HelloWorld"/>
+            <imp:property name="extrefs" value="Pipeline$HelloWorld$ProxyService$HelloWorld_PL"/>
+        </imp:properties>
+    </imp:exportedItemInfo>
+    <imp:exportedItemInfo instanceId="HelloWorld/WSDL/HelloWorld" typeId="WSDL">
+        <imp:properties>
+            <imp:property name="representationversion" value="0"/>
+            <imp:property name="dataclass" value="com.bea.wli.sb.resources.config.impl.WsdlEntryDocumentImpl"/>
+            <imp:property name="isencrypted" value="false"/>
+            <imp:property name="jarentryname" value="HelloWorld/WSDL/HelloWorld.WSDL"/>
+            <imp:property name="extrefs" value="XMLSchema$HelloWorld$XSD$HelloWorld"/>
+        </imp:properties>
+    </imp:exportedItemInfo>
+    <imp:exportedItemInfo instanceId="HelloWorld/ProxyService/_folderdata" typeId="LocationData">
+        <imp:properties>
+            <imp:property name="representationversion" value="0"/>
+            <imp:property name="dataclass" value="com.bea.wli.config.project.impl.LocationDataImpl"/>
+            <imp:property name="isencrypted" value="false"/>
+            <imp:property name="jarentryname" value="HelloWorld/ProxyService/_folderdata.LocationData"/>
+            <imp:property name="custom _special_data_class" value="com.bea.wli.config.project.impl.LocationDataImpl"/>
+        </imp:properties>
+    </imp:exportedItemInfo>
+    <imp:exportedItemInfo instanceId="HelloWorld/_projectdata" typeId="LocationData">
+        <imp:properties>
+            <imp:property name="representationversion" value="0"/>
+            <imp:property name="dataclass" value="com.bea.wli.config.project.impl.LocationDataImpl"/>
+            <imp:property name="isencrypted" value="false"/>
+            <imp:property name="jarentryname" value="HelloWorld/_projectdata.LocationData"/>
+            <imp:property name="custom _special_data_class" value="com.bea.wli.config.project.impl.LocationDataImpl"/>
+        </imp:properties>
+    </imp:exportedItemInfo>
+    <imp:exportedItemInfo instanceId="HelloWorld/ProxyService/HelloWorld_PL" typeId="Pipeline">
+        <imp:properties>
+            <imp:property name="representationversion" value="0"/>
+            <imp:property name="dataclass" value="com.bea.wli.sb.pipeline.config.impl.PipelineEntryDocumentImpl"/>
+            <imp:property name="isencrypted" value="false"/>
+            <imp:property name="jarentryname" value="HelloWorld/ProxyService/HelloWorld_PL.Pipeline"/>
+            <imp:property name="extrefs" value="WSDL$HelloWorld$WSDL$HelloWorld"/>
+        </imp:properties>
+    </imp:exportedItemInfo>
+    <imp:exportedItemInfo instanceId="HelloWorld/XSD/_folderdata" typeId="LocationData">
+        <imp:properties>
+            <imp:property name="representationversion" value="0"/>
+            <imp:property name="dataclass" value="com.bea.wli.config.project.impl.LocationDataImpl"/>
+            <imp:property name="isencrypted" value="false"/>
+            <imp:property name="jarentryname" value="HelloWorld/XSD/_folderdata.LocationData"/>
+            <imp:property name="custom _special_data_class" value="com.bea.wli.config.project.impl.LocationDataImpl"/>
+        </imp:properties>
+    </imp:exportedItemInfo>
+    <imp:exportedItemInfo instanceId="HelloWorld/WSDL/_folderdata" typeId="LocationData">
+        <imp:properties>
+            <imp:property name="representationversion" value="0"/>
+            <imp:property name="dataclass" value="com.bea.wli.config.project.impl.LocationDataImpl"/>
+            <imp:property name="isencrypted" value="false"/>
+            <imp:property name="jarentryname" value="HelloWorld/WSDL/_folderdata.LocationData"/>
+            <imp:property name="custom _special_data_class" value="com.bea.wli.config.project.impl.LocationDataImpl"/>
+        </imp:properties>
+    </imp:exportedItemInfo>
+    <imp:exportedItemInfo instanceId="HelloWorld/XSD/HelloWorld" typeId="XMLSchema">
+        <imp:properties>
+            <imp:property name="representationversion" value="0"/>
+            <imp:property name="dataclass" value="com.bea.wli.sb.resources.config.impl.SchemaEntryDocumentImpl"/>
+            <imp:property name="isencrypted" value="false"/>
+            <imp:property name="jarentryname" value="HelloWorld/XSD/HelloWorld.XMLSchema"/>
+        </imp:properties>
+    </imp:exportedItemInfo>
+</xml-fragment>
